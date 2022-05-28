@@ -1,0 +1,26 @@
+﻿@model bulkey.Models.ViewModels.StaticsVM
+@{
+    int x = 0;
+}
+<form>
+
+
+  
+        <div style="border:5px solid #010;border-radius:5px;margin-bottom:20px">
+
+            <h2 class="text-dark">number of users who registered in the site   @Model.ApplicationUser.ToList().Count()</h2>
+            <h1 class="text-dark">the total number of Companies is     @Model.Compan.ToList().Count()</h1>
+            <h1 class="text-dark">the total number of Categories is     @Model.Category.ToList().Count()</h1>
+
+            <h1 class="text-dark">the total number of available cover types   @Model.CoverType.ToList().Count()</h1>
+            <h1 class="text-dark">the number of orders occured @Model.OrderHeaders.ToList().Count()</h1>
+
+            
+
+
+       
+
+
+       </div>
+ 
+</form>
